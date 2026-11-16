@@ -1,0 +1,26 @@
+# build output (release binaries are copied to dist/, which IS tracked)
+/target/
+
+# Python tooling for tools/build_gpudb.py
+__pycache__/
+*.pyc
+/venv/
+/.venv/
+/gpudb-cache/
+
+# files the app writes at runtime
+gpu-r-report-*.json
+gpu-r-sensors-*.csv
+*.rom
+
+# screenshots / scratch
+*.ppm
+/screenshots/
+
+# editors and OS
+.idea/
+.vscode/
+*.swp
+*~
+.DS_Store
+Thumbs.db
